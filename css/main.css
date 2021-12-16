@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .wrapper {
+        @apply max-w-800 my-0 mx-auto;
+    }
+  .table-style-rb {
+    @apply border-r border-b text-center p-[10px];
+  }
+  .table-style-b {
+    @apply border-b text-center p-[10px];
+  }
+  .table-style-r {
+    @apply border-r text-center p-[10px];
+  }
+}
